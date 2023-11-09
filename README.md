@@ -48,5 +48,22 @@ Webscrapping and buildilng a tool - to find the publications that we are using C
 
 
 
+## Getting Started
+- Create a new Python environment - currently this is running on python 3.8.13
+- Example using pyenv and virtualenv.  `pyenv virtualenv 3.8.13 venv.3_8_13_envname`  (Note: This can also be achieved using anaconda)
+- Upgrade pip: 
+  - `pip install --upgrade pip`
+- Install the libs found in the requirements.txt file.
+
+
+
+
+## Draft Items
+- Leftover from when I was trying this with Selenium 
+  - (UPDATE: Selenium may not be a good way to go - Consider removing) Note: Installing Selenium and Webdriver Manager solves many of these requirements.  `pip install selenium==4.15.2` and `pip install webdriver-manager==4.0.1`
+  - scholarly - This is not looking good either.
+
+
+
 
 
