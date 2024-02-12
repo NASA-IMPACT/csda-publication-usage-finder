@@ -137,7 +137,7 @@ class SearchableDataSources():
 				result_counter = result_counter + 1
 
 			# Save the list into the return object.
-			raw_scholarly_results = raw_scholarly_results
+			ret_search_results_obj_list = raw_scholarly_results
 
 		return ret_search_results_obj_list
 
