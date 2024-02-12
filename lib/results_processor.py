@@ -36,6 +36,9 @@ class ResultsProcessor():
 		# Load up the Processed Search Results object
 		processed_search_results_object['num_of_results'] = len__search_results
 
+		# TODO - Examine all the results and collate them with any previously saved search results.
+		# # Note, if we only have one datasource, this may be as simple as mapping the fields from one type of result into another
+
 		# Return the processed search results object
 		print("ResultsProcessor.process_search_results: Reached the End.")
 		return processed_search_results_object

@@ -25,6 +25,9 @@ class ReportsGenerator():
 	def generate_report__simple_text(self, processed_search_results_object):
 		report_text = ""
 
+
+		# TODO - Also pull in info about older results and integrate them in the report here.
+
 		# Create the report text in a logical way and read properties as we go through what needs to be in the report.
 		report_text += "Search Results Report\n"
 		report_text += "The number of search results found: " + str(processed_search_results_object['num_of_results']) + "\n"

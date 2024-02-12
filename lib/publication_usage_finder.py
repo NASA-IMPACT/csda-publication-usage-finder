@@ -29,6 +29,10 @@ class PublicationUsageFinder():
 		self.env 					= "dev" 					# Possibile Choices are: "dev", "stage", "prod"
 		self.app_memory_location 	= "local_filesystem" 		# Possibile Choices are: "local_filesystem", "cloud_s3"
 		
+		# # Default Config - In the future, maybe load these from a file.
+		# searchable_data_sources_config = {}
+		# searchable_data_sources_config['use_test_results']
+		# self.searchable_data_sources_config = searchable_data_sources_config
 		
 
 	def set_env(self, env):
@@ -81,7 +85,10 @@ class PublicationUsageFinder():
 		searchableDataSources.set_app_memory_location(self.app_memory_location)
 		#
 		# Perform the Searches and get the Search Results
-		search_results = searchableDataSources.perform_searches(search_phrases)
+		#search_results = searchableDataSources.perform_searches(search_phrases, config=self.searchable_data_sources_config)
+		#search_results = searchableDataSources.perform_searches(search_phrases)
+		# # Note: setting use_local_example_search_results_data to True, so we don't hit the server unless we intend to - this prevents us from getting blocked or ip banned from doing these kinds of searches.
+		search_results = searchableDataSources.perform_searches(search_phrases=search_phrases, use_local_example_search_results_data=True)
 
 		# Results Processor - Read through the array of search_results and create a single results object as a dictionary
 		resultsProcessor 		= ResultsProcessor();
