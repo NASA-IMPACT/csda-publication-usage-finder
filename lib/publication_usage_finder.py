@@ -8,6 +8,8 @@ from lib.results_processor 			import ResultsProcessor
 from lib.reports_generator 			import ReportsGenerator
 from lib.reports_outputter 			import ReportsOutputter
 
+import datetime
+
 # # Early Documentation / Notes
 # 	-Overall controller object which has interface functions for executing a search based on a configuration
 #	-We should store things like, when a search was initited, a JSON object representing the configuration, etc
@@ -41,6 +43,11 @@ class PublicationUsageFinder():
 	def set_app_memory_location(self, app_memory_location):
 		self.app_memory_location = app_memory_location
 		
+	# Generates a new run id based on the current UTC datetime
+	def generate_new_run_id(self):
+		new_run_id = datetime.datetime.utcnow().strftime('%Y_%m_%d__%H_%M_%S') 		# Example Output: '2024_02_13__17_41_38'
+		return new_run_id
+
 
 	# Perform a run from within airflow (assuming different settings are needed for this)
 	def run__from_airflow(self):
@@ -61,6 +68,10 @@ class PublicationUsageFinder():
 		# self.set_app_memory_location("local_filesystem")
 		self.set_env(current__env)
 		self.set_app_memory_location(current__app_memory_location)
+
+		# Generate a new run_id for this run
+		current_run_id = self.generate_new_run_id()
+		print("Current Run Id (current_run_id): " + str(current_run_id))
 
 		# Search Phrases for this run
 		search_phrase_1 = "This work utilized data made available through the NASA Commercial Smallsat Data Acquisition (CSDA) Program"
@@ -83,6 +94,7 @@ class PublicationUsageFinder():
 		searchableDataSources 	= SearchableDataSources();
 		searchableDataSources.set_env(self.env)
 		searchableDataSources.set_app_memory_location(self.app_memory_location)
+		searchableDataSources.set_run_id(run_id=current_run_id)
 		#
 		# Perform the Searches and get the Search Results
 		#search_results = searchableDataSources.perform_searches(search_phrases, config=self.searchable_data_sources_config)
@@ -119,8 +131,14 @@ class PublicationUsageFinder():
 		print("PublicationUsageFinder: (search_phrases):                  " + str(search_phrases))
 		print("PublicationUsageFinder: (search_results):                  " + str(search_results))
 		print("PublicationUsageFinder: (processed_search_results_object): " + str(processed_search_results_object))
-		print("PublicationUsageFinder: (report__text):                    " + str(report__text))
-		
+		#print("PublicationUsageFinder: (report__text):                    " + str(report__text))
+		print("PublicationUsageFinder: (report__text):                    " + "Next Lines")
+		#
+		print("")
+		print("")
+		print(str(report__text))
+		print("")
+
 		print("")
 		print("PublicationUsageFinder.run__DRAFT: Reached the End.")
 
