@@ -8,6 +8,8 @@ from lib.results_processor 			import ResultsProcessor
 from lib.reports_generator 			import ReportsGenerator
 from lib.reports_outputter 			import ReportsOutputter
 
+import os
+import json
 import datetime
 
 # # Early Documentation / Notes
@@ -42,12 +44,76 @@ class PublicationUsageFinder():
 
 	def set_app_memory_location(self, app_memory_location):
 		self.app_memory_location = app_memory_location
-		
+
+	def create_directory(self, directory_path):
+		"""Ensure the directory exists."""
+		os.makedirs(directory_path, exist_ok=True)
+
 	# Generates a new run id based on the current UTC datetime
 	def generate_new_run_id(self):
 		new_run_id = datetime.datetime.utcnow().strftime('%Y_%m_%d__%H_%M_%S') 		# Example Output: '2024_02_13__17_41_38'
 		return new_run_id
 
+	def save_json(self, data, file_path):
+		"""Save data to a JSON file."""
+		with open(file_path, 'w') as file:
+			json.dump(data, file, indent=4)
+
+
+
+	"""Append the new search result to 'all_runs.json', avoiding duplicates."""
+
+	def append_to_all_runs(self, data, directory_path):
+		if not isinstance(data, dict) or 'unique_identifier' not in data:
+			print("Error: 'data' is not structured correctly.")
+			return
+
+		all_runs_path = os.path.join(directory_path, 'all_runs.json')
+		if os.path.exists(all_runs_path):
+			with open(all_runs_path, 'r+') as file:
+				try:
+					all_runs_data = json.load(file)
+					if 'results' not in all_runs_data or not isinstance(all_runs_data['results'], list):
+						print("Error: 'all_runs_data' does not contain a 'results' list.")
+						return
+				except json.JSONDecodeError:
+					print("Error decoding JSON from 'all_runs.json'.")
+					return
+
+				# Ensure every item in 'results' is a dict before calling .get()
+				existing_identifiers = [result['unique_identifier'] for result in all_runs_data['results'] if
+										isinstance(result, dict) and 'unique_identifier' in result]
+
+				if data['unique_identifier'] not in existing_identifiers:
+					all_runs_data['results'].append(data)
+					file.seek(0)
+					file.truncate()
+					json.dump(all_runs_data, file, indent=4)
+		else:
+			self.save_json({'results': [data]}, all_runs_path)
+
+	def manage_search_results(self, results, directory_path='pub_finder_runs'):
+		"""Handle the entire process of saving and managing search results."""
+		self.create_directory(directory_path)
+		run_id = self.generate_new_run_id()
+		run_specific_file_path = os.path.join(directory_path, f'{run_id}.json')
+		latest_file_path = os.path.join(directory_path, 'latest.json')
+
+		# Assume `results` is a list of dictionaries, each representing a search result
+		for result in results:
+			# Extract necessary information from each result
+			data_to_save = {
+				# "unique_identifier": result["pub_hash"],  # Use 'pub_hash' as unique identifier
+				"unique_identifier": result["pub_url"], # use this for formatted report
+				"data": result  # Save the entire result under 'data' key
+			}
+
+			# Append the search result to 'all_runs.json', avoiding duplicates
+			self.append_to_all_runs(data_to_save, directory_path)
+
+		# Optionally, save the whole set of results to run-specific and latest files
+		self.save_json(results, run_specific_file_path)
+		self.save_json(results, latest_file_path)
 
 	# Perform a run from within airflow (assuming different settings are needed for this)
 	def run__from_airflow(self):
@@ -117,7 +183,10 @@ class PublicationUsageFinder():
 		#
 		# Generate a simple text report
 		report__text = reportsGenerator.generate_report__simple_text(processed_search_results_object)
-		# Note - We could have other methods like, generate_report__pdf, or slide_show, or email or spreadsheet, etc 
+		# Note - We could have other methods like, generate_report__pdf, or slide_show, or email or spreadsheet, etc
+
+		# self.manage_search_results(search_results, 'pub_finder_runs') #deatiled results
+		self.manage_search_results(processed_search_results_object['search_results_to_present_in_report'],'pub_finder_runs')
 
 		reportsOutputter 		= ReportsOutputter();
 		reportsOutputter.set_env(self.env)

@@ -1,0 +1,421 @@
+[
+    {
+        "api_source": "Scholarly (GS)",
+        "authors_list": [
+            "W McCarty",
+            "O Patrick",
+            "MR Damon"
+        ],
+        "pub_title": "Science Utilizing Data from Spire Global as Part of the NASA Commercial Smallsat Data Acquisition Program",
+        "pub_year": "2021",
+        "pub_url": "https://ieeexplore.ieee.org/abstract/document/9554232/",
+        "search_string": "TODO_FINISH_HOOKING_THIS_UP",
+        "run_id": "2024_02_26__03_48_48",
+        "is_new_result": true
+    },
+    {
+        "api_source": "Scholarly (GS)",
+        "authors_list": [
+            "W McCarty"
+        ],
+        "pub_title": "Science Utilizing Data from Spire Global as Part of the NASA Commercial SmallSat Data Acquisition (CSDA) Program",
+        "pub_year": "2021",
+        "pub_url": "https://ntrs.nasa.gov/citations/20210013384",
+        "search_string": "TODO_FINISH_HOOKING_THIS_UP",
+        "run_id": "2024_02_26__03_48_48",
+        "is_new_result": true
+    },
+    {
+        "api_source": "Scholarly (GS)",
+        "authors_list": [
+            "B Osmanoglu",
+            "M Jo"
+        ],
+        "pub_title": "Commercial Smallsat Data Acquisition Program: Airbus US Synthetic Aperture Radar Quality Assessment Summary",
+        "pub_year": "2023",
+        "pub_url": "https://ntrs.nasa.gov/citations/20230013207",
+        "search_string": "TODO_FINISH_HOOKING_THIS_UP",
+        "run_id": "2024_02_26__03_48_48",
+        "is_new_result": true
+    },
+    {
+        "api_source": "Scholarly (GS)",
+        "authors_list": [
+            "B Osmanoglu",
+            "J Nickeson",
+            "A Hall"
+        ],
+        "pub_title": "Commercial Smallsat Data Acquisition Program On-ramp# 2 Airbus US Synthetic Aperture Radar (SAR) Evaluation Report",
+        "pub_year": "2023",
+        "pub_url": "https://ntrs.nasa.gov/citations/20230013218",
+        "search_string": "TODO_FINISH_HOOKING_THIS_UP",
+        "run_id": "2024_02_26__03_48_48",
+        "is_new_result": true
+    },
+    {
+        "api_source": "Scholarly (GS)",
+        "authors_list": [
+            "L Tanh",
+            "M Pazmino",
+            "L Childs-Gleason",
+            "KW Ross"
+        ],
+        "pub_title": "Combining NASA Earth Observations and Commercial Smallsat Data to Inform Localized Decision Making",
+        "pub_year": "2023",
+        "pub_url": "https://ntrs.nasa.gov/citations/20230017240",
+        "search_string": "TODO_FINISH_HOOKING_THIS_UP",
+        "run_id": "2024_02_26__03_48_48",
+        "is_new_result": true
+    },
+    {
+        "api_source": "Scholarly (GS)",
+        "authors_list": [
+            "D Pham"
+        ],
+        "pub_title": "Data in action story: sharing and exploring earth science data",
+        "pub_year": "2023",
+        "pub_url": "https://louis.uah.edu/uah-theses/452/",
+        "search_string": "TODO_FINISH_HOOKING_THIS_UP",
+        "run_id": "2024_02_26__03_48_48",
+        "is_new_result": true
+    },
+    {
+        "api_source": "Scholarly (GS)",
+        "authors_list": [
+            "L Wanchoo",
+            "F Lindsay",
+            "D Turcios",
+            "Y Hao"
+        ],
+        "pub_title": "NASA EOSDIS 20 Years of Data Usage and User Assessment in Support of Open Science Initiative",
+        "pub_year": "2023",
+        "pub_url": "https://ntrs.nasa.gov/citations/20230017285",
+        "search_string": "TODO_FINISH_HOOKING_THIS_UP",
+        "run_id": "2024_02_26__03_48_48",
+        "is_new_result": true
+    },
+    {
+        "api_source": "Scholarly (GS)",
+        "authors_list": [
+            "M Maskey",
+            "A Hall",
+            "K Murphy",
+            "C Tucker"
+        ],
+        "pub_title": "Commercial Smallsat Data Acquisition: Program Update",
+        "pub_year": "2021",
+        "pub_url": "https://ieeexplore.ieee.org/abstract/document/9554702/",
+        "search_string": "TODO_FINISH_HOOKING_THIS_UP",
+        "run_id": "2024_02_26__03_48_48",
+        "is_new_result": true
+    },
+    {
+        "api_source": "Scholarly (GS)",
+        "authors_list": [
+            "A Kaulfus",
+            "A Hall",
+            "M Maskey",
+            "W McCarty"
+        ],
+        "pub_title": "Programmatic Update for NASA's Commercial Smallsat Data Acquisition (CSDA) Program",
+        "pub_year": "2023",
+        "pub_url": "https://meetingorganizer.copernicus.org/EGU23/EGU23-8585.html",
+        "search_string": "TODO_FINISH_HOOKING_THIS_UP",
+        "run_id": "2024_02_26__03_48_48",
+        "is_new_result": true
+    },
+    {
+        "api_source": "Scholarly (GS)",
+        "authors_list": [
+            "C Daniels",
+            "B Freitag",
+            "A Kaulfus",
+            "E Keeble",
+            "A Lukach"
+        ],
+        "pub_title": "Publishing MAXAR\u00ae Data to NASA Earthdata Cloud using the Cumulus Framework",
+        "pub_year": "2023",
+        "pub_url": "https://ntrs.nasa.gov/api/citations/20230017460/downloads/MAXAR%20CSDA%20AGU%202023.pdf",
+        "search_string": "TODO_FINISH_HOOKING_THIS_UP",
+        "run_id": "2024_02_26__03_48_48",
+        "is_new_result": true
+    },
+    {
+        "api_source": "Scholarly (GS)",
+        "authors_list": [
+            "A Kaulfus",
+            "M Maskey",
+            "A Hall",
+            "B Freitag"
+        ],
+        "pub_title": "NASA's Commercial Smallsat Data Acquisition Program Data Stewardship and Data Management",
+        "pub_year": "2022",
+        "pub_url": "https://ntrs.nasa.gov/api/citations/20220000472/downloads/AMS2022_CSDA_Data_System.pptx.pdf",
+        "search_string": "TODO_FINISH_HOOKING_THIS_UP",
+        "run_id": "2024_02_26__03_48_48",
+        "is_new_result": true
+    },
+    {
+        "api_source": "Scholarly (GS)",
+        "authors_list": [
+            "M Maskey"
+        ],
+        "pub_title": "Commercial Smallsat Data Acquisition (CSDA) Program Overview",
+        "pub_year": "2021",
+        "pub_url": "https://ntrs.nasa.gov/api/citations/20210018253/downloads/CSDA.IGARSS.2021.HighLevel.pdf",
+        "search_string": "TODO_FINISH_HOOKING_THIS_UP",
+        "run_id": "2024_02_26__03_48_48",
+        "is_new_result": true
+    },
+    {
+        "api_source": "Scholarly (GS)",
+        "authors_list": [
+            "J Le Roux",
+            "S Christopher",
+            "M Maskey",
+            "R Griffin"
+        ],
+        "pub_title": "Assessing the Feasibility of using PlanetScope Data for Air Quality Applications",
+        "pub_year": "2020",
+        "pub_url": "https://ntrs.nasa.gov/citations/20205009826",
+        "search_string": "TODO_FINISH_HOOKING_THIS_UP",
+        "run_id": "2024_02_26__03_48_48",
+        "is_new_result": true
+    },
+    {
+        "api_source": "Scholarly (GS)",
+        "authors_list": [
+            "J Le Roux",
+            "S Christopher",
+            "M Maskey"
+        ],
+        "pub_title": "Exploring the use of PlanetScope data for particulate matter air quality research",
+        "pub_year": "2021",
+        "pub_url": "https://www.mdpi.com/2072-4292/13/15/2981",
+        "search_string": "TODO_FINISH_HOOKING_THIS_UP",
+        "run_id": "2024_02_26__03_48_48",
+        "is_new_result": true
+    },
+    {
+        "api_source": "Scholarly (GS)",
+        "authors_list": [
+            "S Dalal",
+            "K Lee",
+            "G Rosenstein",
+            "C Ross"
+        ],
+        "pub_title": "Marin County Wildland Fires: Examining Fuel Load and Land Cover Change to Inform Fire Prevention and Suppression Decisions in Marin County, CA",
+        "pub_year": "2023",
+        "pub_url": "https://ntrs.nasa.gov/citations/20230006640",
+        "search_string": "TODO_FINISH_HOOKING_THIS_UP",
+        "run_id": "2024_02_26__03_48_48",
+        "is_new_result": true
+    },
+    {
+        "api_source": "Scholarly (GS)",
+        "authors_list": [
+            "MM Coffer",
+            "DD Graybill",
+            "PJ Whitman"
+        ],
+        "pub_title": "Providing a framework for seagrass mapping in United States coastal ecosystems using high spatial resolution satellite imagery",
+        "pub_year": "2023",
+        "pub_url": "https://www.sciencedirect.com/science/article/pii/S0301479723004577",
+        "search_string": "TODO_FINISH_HOOKING_THIS_UP",
+        "run_id": "2024_02_26__03_48_48",
+        "is_new_result": true
+    },
+    {
+        "api_source": "Scholarly (GS)",
+        "authors_list": [
+            "M Smedsrud",
+            "H Hoffmeister",
+            "O Orimolade"
+        ],
+        "pub_title": "Kankakee River Water Resources: Monitoring Temperature and Vegetation to Detect River Flow Impediments at Energy Intake Structures",
+        "pub_year": "2023",
+        "pub_url": "https://ntrs.nasa.gov/api/citations/20230011112/downloads/2023Sum_PUP_KankakeeWater_Presentation_FD_v2.pdf",
+        "search_string": "TODO_FINISH_HOOKING_THIS_UP",
+        "run_id": "2024_02_26__03_48_48",
+        "is_new_result": true
+    },
+    {
+        "api_source": "Scholarly (GS)",
+        "authors_list": [
+            "M Moon",
+            "AD Richardson",
+            "MA Friedl"
+        ],
+        "pub_title": "Multiscale assessment of land surface phenology from harmonized Landsat 8 and Sentinel-2, PlanetScope, and PhenoCam imagery",
+        "pub_year": "2021",
+        "pub_url": "https://www.sciencedirect.com/science/article/pii/S0034425721004363",
+        "search_string": "TODO_FINISH_HOOKING_THIS_UP",
+        "run_id": "2024_02_26__03_48_48",
+        "is_new_result": true
+    },
+    {
+        "api_source": "Scholarly (GS)",
+        "authors_list": [
+            "SM Mutschler",
+            "P Axelrad",
+            "EK Sutton"
+        ],
+        "pub_title": "Physics\u2010Based Approach to Thermospheric Density Estimation Using CubeSat GPS Data",
+        "pub_year": "2023",
+        "pub_url": "https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2021SW002997",
+        "search_string": "TODO_FINISH_HOOKING_THIS_UP",
+        "run_id": "2024_02_26__03_48_48",
+        "is_new_result": true
+    },
+    {
+        "api_source": "Scholarly (GS)",
+        "authors_list": [
+            "M Moon",
+            "AD Richardson",
+            "T Milliman",
+            "MA Friedl"
+        ],
+        "pub_title": "A high spatial resolution land surface phenology dataset for AmeriFlux and NEON sites",
+        "pub_year": "2022",
+        "pub_url": "https://www.nature.com/articles/s41597-022-01570-5",
+        "search_string": "TODO_FINISH_HOOKING_THIS_UP",
+        "run_id": "2024_02_26__03_48_48",
+        "is_new_result": true
+    },
+    {
+        "api_source": "Scholarly (GS)",
+        "authors_list": [
+            "J Price",
+            "D Sousa",
+            "FJ Sousa"
+        ],
+        "pub_title": "Effect of spatial and spectral scaling on joint characterization of the spectral mixture residual: Comparative analysis of AVIRIS and WorldView-3 SWIR for \u2026",
+        "pub_year": "2023",
+        "pub_url": "https://www.mdpi.com/1424-8220/23/15/6742",
+        "search_string": "TODO_FINISH_HOOKING_THIS_UP",
+        "run_id": "2024_02_26__03_48_48",
+        "is_new_result": true
+    },
+    {
+        "api_source": "Scholarly (GS)",
+        "authors_list": [
+            "GH Donovan",
+            "D Gatziolis",
+            "M Derrien",
+            "YL Michael"
+        ],
+        "pub_title": "Shortcomings of the normalized difference vegetation index as an exposure metric",
+        "pub_year": "2022",
+        "pub_url": "https://www.nature.com/articles/s41477-022-01170-6",
+        "search_string": "TODO_FINISH_HOOKING_THIS_UP",
+        "run_id": "2024_02_26__03_48_48",
+        "is_new_result": true
+    },
+    {
+        "api_source": "Scholarly (GS)",
+        "authors_list": [
+            "J Wei"
+        ],
+        "pub_title": "Transforming NASA Earth Science Data Systems: A Journey from Big Earth Data Initiative (BEDI) to Open-Source Science Initiative (OSSI)",
+        "pub_year": "2023",
+        "pub_url": "https://ntrs.nasa.gov/citations/20230007929",
+        "search_string": "TODO_FINISH_HOOKING_THIS_UP",
+        "run_id": "2024_02_26__03_48_48",
+        "is_new_result": true
+    },
+    {
+        "api_source": "Scholarly (GS)",
+        "authors_list": [
+            "T Yin",
+            "PM Montesano",
+            "BD Cook",
+            "E Chavanon"
+        ],
+        "pub_title": "Modeling forest canopy surface retrievals using very high-resolution spaceborne stereogrammetry:(I) methods and comparisons with actual data",
+        "pub_year": "2023",
+        "pub_url": "https://www.sciencedirect.com/science/article/pii/S0034425723003760",
+        "search_string": "TODO_FINISH_HOOKING_THIS_UP",
+        "run_id": "2024_02_26__03_48_48",
+        "is_new_result": true
+    },
+    {
+        "api_source": "Scholarly (GS)",
+        "authors_list": [
+            "C Spradlin",
+            "M Wooten"
+        ],
+        "pub_title": "Large-Scale Distributed Compositing and Statistics Framework For Very-High-Resolution Remote Sensing Imagery",
+        "pub_year": "2023",
+        "pub_url": "https://ieeexplore.ieee.org/abstract/document/10283222/",
+        "search_string": "TODO_FINISH_HOOKING_THIS_UP",
+        "run_id": "2024_02_26__03_48_48",
+        "is_new_result": true
+    },
+    {
+        "api_source": "Scholarly (GS)",
+        "authors_list": [
+            "P Amatya",
+            "R Emberson"
+        ],
+        "pub_title": "Multitemporal landslide inventory and susceptibility map for the Arun River Basin, Nepal",
+        "pub_year": "2024",
+        "pub_url": "https://rmets.onlinelibrary.wiley.com/doi/abs/10.1002/gdj3.240",
+        "search_string": "TODO_FINISH_HOOKING_THIS_UP",
+        "run_id": "2024_02_26__03_48_48",
+        "is_new_result": true
+    },
+    {
+        "api_source": "Scholarly (GS)",
+        "authors_list": [
+            "M Scott",
+            "C Chew",
+            "Y Wang",
+            "C Roesler"
+        ],
+        "pub_title": "On The Relationship Between The GNSS-R Signal SNR and Coherency With Surface Water: A Case Study Over Lake Okeechobee",
+        "pub_year": "2023",
+        "pub_url": "https://ieeexplore.ieee.org/abstract/document/10283185/",
+        "search_string": "TODO_FINISH_HOOKING_THIS_UP",
+        "run_id": "2024_02_26__03_48_48",
+        "is_new_result": true
+    },
+    {
+        "api_source": "Scholarly (GS)",
+        "authors_list": [
+            "DL Wu",
+            "N Swarnalingam",
+            "CCJH Salinas"
+        ],
+        "pub_title": "Global Ionospheric Electron Density from GNSS-POD Limb Measurements",
+        "pub_year": "2023",
+        "pub_url": "https://ieeexplore.ieee.org/abstract/document/10265588/",
+        "search_string": "TODO_FINISH_HOOKING_THIS_UP",
+        "run_id": "2024_02_26__03_48_48",
+        "is_new_result": true
+    },
+    {
+        "api_source": "Scholarly (GS)",
+        "authors_list": [
+            "F Tan"
+        ],
+        "pub_title": "Game-Changing Science with SmallSats and Hosted Payloads",
+        "pub_year": "2022",
+        "pub_url": "https://ntrs.nasa.gov/citations/20220009747",
+        "search_string": "TODO_FINISH_HOOKING_THIS_UP",
+        "run_id": "2024_02_26__03_48_48",
+        "is_new_result": true
+    },
+    {
+        "api_source": "Scholarly (GS)",
+        "authors_list": [
+            "R Emberson",
+            "DB Kirschbaum"
+        ],
+        "pub_title": "Insights from the topographic characteristics of a large global catalog of rainfall-induced landslide event inventories",
+        "pub_year": "2022",
+        "pub_url": "https://nhess.copernicus.org/articles/22/1129/2022/",
+        "search_string": "TODO_FINISH_HOOKING_THIS_UP",
+        "run_id": "2024_02_26__03_48_48",
+        "is_new_result": true
+    }
+]
