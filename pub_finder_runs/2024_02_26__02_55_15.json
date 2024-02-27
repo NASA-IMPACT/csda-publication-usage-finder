@@ -1,0 +1,76 @@
+{
+    "num_of_results__from_previous_saved_searches": 0,
+    "num_of_results__from_current_run_search": 5,
+    "num_of_results__presented_in_report": 5,
+    "search_results_to_present_in_report": [
+        {
+            "api_source": "Scholarly (GS)",
+            "authors_list": [
+                "B Osmanoglu",
+                "M Jo"
+            ],
+            "pub_title": "Commercial Smallsat Data Acquisition Program: Airbus US Synthetic Aperture Radar Quality Assessment Summary",
+            "pub_year": "2023",
+            "pub_url": "https://ntrs.nasa.gov/citations/20230013207",
+            "search_string": "TODO_FINISH_HOOKING_THIS_UP",
+            "run_id": "2024_02_26__02_55_15",
+            "is_new_result": true
+        },
+        {
+            "api_source": "Scholarly (GS)",
+            "authors_list": [
+                "B Osmanoglu",
+                "J Nickeson",
+                "A Hall"
+            ],
+            "pub_title": "Commercial Smallsat Data Acquisition Program On-ramp# 2 Airbus US Synthetic Aperture Radar (SAR) Evaluation Report",
+            "pub_year": "2023",
+            "pub_url": "https://ntrs.nasa.gov/citations/20230013218",
+            "search_string": "TODO_FINISH_HOOKING_THIS_UP",
+            "run_id": "2024_02_26__02_55_15",
+            "is_new_result": true
+        },
+        {
+            "api_source": "Scholarly (GS)",
+            "authors_list": [
+                "L Tanh",
+                "M Pazmino",
+                "L Childs-Gleason",
+                "KW Ross"
+            ],
+            "pub_title": "Combining NASA Earth Observations and Commercial Smallsat Data to Inform Localized Decision Making",
+            "pub_year": "2023",
+            "pub_url": "https://ntrs.nasa.gov/citations/20230017240",
+            "search_string": "TODO_FINISH_HOOKING_THIS_UP",
+            "run_id": "2024_02_26__02_55_15",
+            "is_new_result": true
+        },
+        {
+            "api_source": "Scholarly (GS)",
+            "authors_list": [
+                "D Pham"
+            ],
+            "pub_title": "Data in Action Story: Sharing and Exploring Earth Science Data",
+            "pub_year": "2023",
+            "pub_url": "https://search.proquest.com/openview/01b1bc68667a942808662719e8ed570b/1?pq-origsite=gscholar&cbl=18750&diss=y",
+            "search_string": "TODO_FINISH_HOOKING_THIS_UP",
+            "run_id": "2024_02_26__02_55_15",
+            "is_new_result": true
+        },
+        {
+            "api_source": "Scholarly (GS)",
+            "authors_list": [
+                "M Maskey",
+                "A Hall",
+                "K Murphy",
+                "C Tucker"
+            ],
+            "pub_title": "Commercial Smallsat Data Acquisition: Program Update",
+            "pub_year": "2021",
+            "pub_url": "https://ieeexplore.ieee.org/abstract/document/9554702/",
+            "search_string": "TODO_FINISH_HOOKING_THIS_UP",
+            "run_id": "2024_02_26__02_55_15",
+            "is_new_result": true
+        }
+    ]
+}
