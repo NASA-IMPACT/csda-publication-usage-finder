@@ -1,0 +1,249 @@
+{
+    "all_runs": [
+        {
+            "original_search_result_object": {
+                "pub_search_result_source": "scholarly_google_scholars",
+                "pub_search_result": {
+                    "container_type": "Publication",
+                    "source": "<PublicationSource.PUBLICATION_SEARCH_SNIPPET: 'PUBLICATION_SEARCH_SNIPPET'>",
+                    "bib": {
+                        "title": "Commercial Smallsat Data Acquisition Program: Airbus US Synthetic Aperture Radar Quality Assessment Summary",
+                        "author": [
+                            "B Osmanoglu",
+                            "M Jo"
+                        ],
+                        "pub_year": "2023",
+                        "venue": "NA",
+                        "abstract": "Trade names and trademarks are used in this report for identification  the Commercial  Smallsat Data Acquisition (CSDA) program\\\u2019s radar subject matter experts, following the Joint NASA"
+                    },
+                    "filled": false,
+                    "gsrank": 3,
+                    "pub_url": "https://ntrs.nasa.gov/citations/20230013207",
+                    "author_id": [
+                        "",
+                        "9ZkFo54AAAAJ"
+                    ],
+                    "url_scholarbib": "/scholar?hl=en&q=info:Au3uhC6dBJAJ:scholar.google.com/&output=cite&scirp=2&hl=en",
+                    "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3DThis%2Bwork%2Butilized%2Bdata%2Bmade%2Bavailable%2Bthrough%2Bthe%2BNASA%2BCommercial%2BSmallsat%2BData%2BAcquisition%2B(CSDA)%2BProgram%26hl%3Den%26as_sdt%3D0,33&citilm=1&update_op=library_add&info=Au3uhC6dBJAJ&ei=S7e6ZZGZJoSC6rQPspmXgAw&json=",
+                    "num_citations": 0,
+                    "eprint_url": "https://ntrs.nasa.gov/api/citations/20230013207/downloads/NASA%20TP%2020230013207.pdf"
+                },
+                "pub_id": "https://ntrs.nasa.gov/citations/20230013207",
+                "pub_url": "https://ntrs.nasa.gov/citations/20230013207",
+                "pub_hash": "2fcf1ba3d1aab39e0edf799a9a927eddc990aaf0",
+                "run_id": "2024_03_03__04_39_41"
+            },
+            "pub_id": "https://ntrs.nasa.gov/citations/20230013207",
+            "api_source": "Scholarly (GS)",
+            "authors_list": [
+                "B Osmanoglu",
+                "M Jo"
+            ],
+            "pub_title": "Commercial Smallsat Data Acquisition Program: Airbus US Synthetic Aperture Radar Quality Assessment Summary",
+            "pub_year": "2023",
+            "pub_url": "https://ntrs.nasa.gov/citations/20230013207",
+            "search_string": "TODO_FINISH_HOOKING_THIS_UP",
+            "run_id": "2024_03_03__04_39_41",
+            "is_new_result": false
+        },
+        {
+            "original_search_result_object": {
+                "pub_search_result_source": "scholarly_google_scholars",
+                "pub_search_result": {
+                    "container_type": "Publication",
+                    "source": "<PublicationSource.PUBLICATION_SEARCH_SNIPPET: 'PUBLICATION_SEARCH_SNIPPET'>",
+                    "bib": {
+                        "title": "Commercial Smallsat Data Acquisition Program On-ramp# 2 Airbus US Synthetic Aperture Radar (SAR) Evaluation Report",
+                        "author": [
+                            "B Osmanoglu",
+                            "J Nickeson",
+                            "A Hall"
+                        ],
+                        "pub_year": "2023",
+                        "venue": "NA",
+                        "abstract": "Trade names and trademarks are used in this report for identification only. Their usage does   In this report, CSDA evaluates the usefulness of imagery and data provided by Airbus US"
+                    },
+                    "filled": false,
+                    "gsrank": 4,
+                    "pub_url": "https://ntrs.nasa.gov/citations/20230013218",
+                    "author_id": [
+                        "",
+                        "",
+                        ""
+                    ],
+                    "url_scholarbib": "/scholar?hl=en&q=info:c50Cz0VJRx0J:scholar.google.com/&output=cite&scirp=3&hl=en",
+                    "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3DThis%2Bwork%2Butilized%2Bdata%2Bmade%2Bavailable%2Bthrough%2Bthe%2BNASA%2BCommercial%2BSmallsat%2BData%2BAcquisition%2B(CSDA)%2BProgram%26hl%3Den%26as_sdt%3D0,33&citilm=1&update_op=library_add&info=c50Cz0VJRx0J&ei=S7e6ZZGZJoSC6rQPspmXgAw&json=",
+                    "num_citations": 0,
+                    "eprint_url": "https://ntrs.nasa.gov/api/citations/20230013218/downloads/NASA%20TP%2020230013218.pdf"
+                },
+                "pub_id": "https://ntrs.nasa.gov/citations/20230013218",
+                "pub_url": "https://ntrs.nasa.gov/citations/20230013218",
+                "pub_hash": "d4875d3eac0599eab373ff4a574ce9a8ce9350d0",
+                "run_id": "2024_03_03__04_39_41"
+            },
+            "pub_id": "https://ntrs.nasa.gov/citations/20230013218",
+            "api_source": "Scholarly (GS)",
+            "authors_list": [
+                "B Osmanoglu",
+                "J Nickeson",
+                "A Hall"
+            ],
+            "pub_title": "Commercial Smallsat Data Acquisition Program On-ramp# 2 Airbus US Synthetic Aperture Radar (SAR) Evaluation Report",
+            "pub_year": "2023",
+            "pub_url": "https://ntrs.nasa.gov/citations/20230013218",
+            "search_string": "TODO_FINISH_HOOKING_THIS_UP",
+            "run_id": "2024_03_03__04_39_41",
+            "is_new_result": false
+        },
+        {
+            "original_search_result_object": {
+                "pub_search_result_source": "scholarly_google_scholars",
+                "pub_search_result": {
+                    "container_type": "Publication",
+                    "source": "<PublicationSource.PUBLICATION_SEARCH_SNIPPET: 'PUBLICATION_SEARCH_SNIPPET'>",
+                    "bib": {
+                        "title": "Combining NASA Earth Observations and Commercial Smallsat Data to Inform Localized Decision Making",
+                        "author": [
+                            "L Tanh",
+                            "M Pazmino",
+                            "L Childs-Gleason",
+                            "KW Ross"
+                        ],
+                        "pub_year": "2023",
+                        "venue": "AGU23",
+                        "abstract": "the program's use of CSDA data and its integration with NASA Earth  work utilized data  made available through the NASA Commercial Smallsat Data Acquisition (CSDA) program"
+                    },
+                    "filled": false,
+                    "gsrank": 5,
+                    "pub_url": "https://ntrs.nasa.gov/citations/20230017240",
+                    "author_id": [
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "url_scholarbib": "/scholar?hl=en&q=info:i-FhZ5APDnkJ:scholar.google.com/&output=cite&scirp=4&hl=en",
+                    "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3DThis%2Bwork%2Butilized%2Bdata%2Bmade%2Bavailable%2Bthrough%2Bthe%2BNASA%2BCommercial%2BSmallsat%2BData%2BAcquisition%2B(CSDA)%2BProgram%26hl%3Den%26as_sdt%3D0,33&citilm=1&update_op=library_add&info=i-FhZ5APDnkJ&ei=S7e6ZZGZJoSC6rQPspmXgAw&json=",
+                    "num_citations": 0,
+                    "eprint_url": "https://ntrs.nasa.gov/api/citations/20230017240/downloads/2023AGU_Poster_Tanh_CSDA-FDv2.pdf"
+                },
+                "pub_id": "https://ntrs.nasa.gov/citations/20230017240",
+                "pub_url": "https://ntrs.nasa.gov/citations/20230017240",
+                "pub_hash": "23f385c719715b6d3988701096a22931cc016cc0",
+                "run_id": "2024_03_03__04_39_41"
+            },
+            "pub_id": "https://ntrs.nasa.gov/citations/20230017240",
+            "api_source": "Scholarly (GS)",
+            "authors_list": [
+                "L Tanh",
+                "M Pazmino",
+                "L Childs-Gleason",
+                "KW Ross"
+            ],
+            "pub_title": "Combining NASA Earth Observations and Commercial Smallsat Data to Inform Localized Decision Making",
+            "pub_year": "2023",
+            "pub_url": "https://ntrs.nasa.gov/citations/20230017240",
+            "search_string": "TODO_FINISH_HOOKING_THIS_UP",
+            "run_id": "2024_03_03__04_39_41",
+            "is_new_result": false
+        },
+        {
+            "original_search_result_object": {
+                "pub_search_result_source": "scholarly_google_scholars",
+                "pub_search_result": {
+                    "container_type": "Publication",
+                    "source": "<PublicationSource.PUBLICATION_SEARCH_SNIPPET: 'PUBLICATION_SEARCH_SNIPPET'>",
+                    "bib": {
+                        "title": "Data in Action Story: Sharing and Exploring Earth Science Data",
+                        "author": [
+                            "D Pham"
+                        ],
+                        "pub_year": "2023",
+                        "venue": "NA",
+                        "abstract": "used for good data storytelling practice. Specifically, they  from a NASA internship supported  by the CSDA Program in the  of the Commercial Smallsat Data Acquisition (CSDA) review"
+                    },
+                    "filled": false,
+                    "gsrank": 6,
+                    "pub_url": "https://search.proquest.com/openview/01b1bc68667a942808662719e8ed570b/1?pq-origsite=gscholar&cbl=18750&diss=y",
+                    "author_id": [
+                        ""
+                    ],
+                    "url_scholarbib": "/scholar?hl=en&q=info:0n0uwFkMkFcJ:scholar.google.com/&output=cite&scirp=5&hl=en",
+                    "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3DThis%2Bwork%2Butilized%2Bdata%2Bmade%2Bavailable%2Bthrough%2Bthe%2BNASA%2BCommercial%2BSmallsat%2BData%2BAcquisition%2B(CSDA)%2BProgram%26hl%3Den%26as_sdt%3D0,33&citilm=1&update_op=library_add&info=0n0uwFkMkFcJ&ei=S7e6ZZGZJoSC6rQPspmXgAw&json=",
+                    "num_citations": 0,
+                    "url_related_articles": "/scholar?q=related:0n0uwFkMkFcJ:scholar.google.com/&scioq=This+work+utilized+data+made+available+through+the+NASA+Commercial+Smallsat+Data+Acquisition+(CSDA)+Program&hl=en&as_sdt=0,33",
+                    "eprint_url": "https://louis.uah.edu/cgi/viewcontent.cgi?article=1451&context=uah-theses"
+                },
+                "pub_id": "https://search.proquest.com/openview/01b1bc68667a942808662719e8ed570b/1?pq-origsite=gscholar&cbl=18750&diss=y",
+                "pub_url": "https://search.proquest.com/openview/01b1bc68667a942808662719e8ed570b/1?pq-origsite=gscholar&cbl=18750&diss=y",
+                "pub_hash": "3da79fb5ece20f96cddffb2ba8e1496f207d8837",
+                "run_id": "2024_03_03__04_39_41"
+            },
+            "pub_id": "https://search.proquest.com/openview/01b1bc68667a942808662719e8ed570b/1?pq-origsite=gscholar&cbl=18750&diss=y",
+            "api_source": "Scholarly (GS)",
+            "authors_list": [
+                "D Pham"
+            ],
+            "pub_title": "Data in Action Story: Sharing and Exploring Earth Science Data",
+            "pub_year": "2023",
+            "pub_url": "https://search.proquest.com/openview/01b1bc68667a942808662719e8ed570b/1?pq-origsite=gscholar&cbl=18750&diss=y",
+            "search_string": "TODO_FINISH_HOOKING_THIS_UP",
+            "run_id": "2024_03_03__04_39_41",
+            "is_new_result": false
+        },
+        {
+            "original_search_result_object": {
+                "pub_search_result_source": "scholarly_google_scholars",
+                "pub_search_result": {
+                    "container_type": "Publication",
+                    "source": "<PublicationSource.PUBLICATION_SEARCH_SNIPPET: 'PUBLICATION_SEARCH_SNIPPET'>",
+                    "bib": {
+                        "title": "Commercial Smallsat Data Acquisition: Program Update",
+                        "author": [
+                            "M Maskey",
+                            "A Hall",
+                            "K Murphy",
+                            "C Tucker"
+                        ],
+                        "pub_year": "2021",
+                        "venue": "\u2026 and Remote Sensing \u2026",
+                        "abstract": "CSDA will utilize Cumulus to publish data from commercial sources such that the data are  available next to the NASA\u2019s  CSDA program has enabled access to commercial data allowing"
+                    },
+                    "filled": false,
+                    "gsrank": 7,
+                    "pub_url": "https://ieeexplore.ieee.org/abstract/document/9554702/",
+                    "author_id": [
+                        "k4T40hoAAAAJ",
+                        "",
+                        "",
+                        "IBvX950AAAAJ"
+                    ],
+                    "url_scholarbib": "/scholar?hl=en&q=info:T3p8qChMC6IJ:scholar.google.com/&output=cite&scirp=6&hl=en",
+                    "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3DThis%2Bwork%2Butilized%2Bdata%2Bmade%2Bavailable%2Bthrough%2Bthe%2BNASA%2BCommercial%2BSmallsat%2BData%2BAcquisition%2B(CSDA)%2BProgram%26hl%3Den%26as_sdt%3D0,33&citilm=1&update_op=library_add&info=T3p8qChMC6IJ&ei=S7e6ZZGZJoSC6rQPspmXgAw&json=",
+                    "num_citations": 2,
+                    "citedby_url": "/scholar?cites=11676510196397275727&as_sdt=5,33&sciodt=0,33&hl=en",
+                    "url_related_articles": "/scholar?q=related:T3p8qChMC6IJ:scholar.google.com/&scioq=This+work+utilized+data+made+available+through+the+NASA+Commercial+Smallsat+Data+Acquisition+(CSDA)+Program&hl=en&as_sdt=0,33",
+                    "eprint_url": "https://ieeexplore.ieee.org/iel7/9553015/9553016/09554702.pdf"
+                },
+                "pub_id": "https://ieeexplore.ieee.org/abstract/document/9554702/",
+                "pub_url": "https://ieeexplore.ieee.org/abstract/document/9554702/",
+                "pub_hash": "9cbf802077d5bfc5e8429a91930f6cee49f0ee11",
+                "run_id": "2024_03_03__04_43_58"
+            },
+            "pub_id": "https://ieeexplore.ieee.org/abstract/document/9554702/",
+            "api_source": "Scholarly (GS)",
+            "authors_list": [
+                "M Maskey",
+                "A Hall",
+                "K Murphy",
+                "C Tucker"
+            ],
+            "pub_title": "Commercial Smallsat Data Acquisition: Program Update",
+            "pub_year": "2021",
+            "pub_url": "https://ieeexplore.ieee.org/abstract/document/9554702/",
+            "search_string": "TODO_FINISH_HOOKING_THIS_UP",
+            "run_id": "2024_03_03__04_43_58",
+            "is_new_result": true
+        }
+    ]
+}
