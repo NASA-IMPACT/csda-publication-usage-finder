@@ -1,6 +1,8 @@
 # results_processor.py
 # print("results_processor.py")
 
+# Abstraction for storing the search results
+from lib.storage import Storage
 
 # # Early Documentation / Notes
 # 	-We have a class which expects an input of a certain structure, and this class then processes results into a more streamlined output
@@ -17,13 +19,58 @@ class ResultsProcessor():
 		# Defaults for these are dev and local_filesystem
 		self.env 					= "dev" 					# Possibile Choices are: "dev", "stage", "prod"
 		self.app_memory_location 	= "local_filesystem" 		# Possibile Choices are: "local_filesystem", "cloud_s3"
+		self.run_id 				= "unset" 					# The run_id should be set just after instanciating this object.
 		
+		# Settings for where the search results are saved and loaded
+		self.results_processor_dir_path = "pub_finder_runs/results_processor"
+		self.results_processor_file_name_all_results = "all_runs.json"
 
 	def set_env(self, env):
 		self.env = env
 
 	def set_app_memory_location(self, app_memory_location):
 		self.app_memory_location = app_memory_location
+
+	def set_run_id(self, run_id):
+		self.run_id = run_id
+
+	# Load from JSON, a unique list of ALL search results that were previously encountered from all runs
+	# Output is an array of processed search results (dictionary objects).  This function decodes
+	def load_running_list_of_all_previous_search_results(self):
+		# Default is to return a blank array.
+		ret__all_previous_search_results = []
+
+		# Instancate the storage class and pass on the app memory location variable to it (so it knows if we are working with local or cloud version)
+		storage_instance = Storage()
+		storage_instance.set_app_memory_location(app_memory_location=self.app_memory_location)
+		
+		# Call the Function to save the latest search results
+		dict_obj = storage_instance.load_dict_from_json_file(directory_path=self.results_processor_dir_path, file_name=self.results_processor_file_name_all_results) # all_runs.json
+
+		# Get the array from the JSON object
+		if "all_runs" in dict_obj.keys():
+			ret__all_previous_search_results = dict_obj["all_runs"]
+		else:
+			# Could not find the key 'all_runs', maybe the file didn't exist or we have a blank object.
+			print("Could not find the key 'all_runs', maybe the file didn't exist or we are trying to load results from a blank dictionary object.")
+
+		# Return the list
+		return ret__all_previous_search_results
+
+	# Save to JSON, a unique list of ALL search results that were previously encountered from all runs (including the current run)
+	# Input is an array of processed search results (dictionary objects).  This function than wraps that into a dictionary under the key 'all_runs'
+	def save_running_list_of_all_previous_search_results(self, all_runs_processed_search_results):
+		# Convert the search_results_list into an object, add the results as a property of that object, also add the run_id to the object
+		obj_to_save = {}
+		obj_to_save['all_runs'] 	= all_runs_processed_search_results
+		
+		# Instancate the storage class and pass on the app memory location variable to it (so it knows if we are working with local or cloud version)
+		storage_instance = Storage()
+		storage_instance.set_app_memory_location(app_memory_location=self.app_memory_location)
+		
+		# Call the Function to save the latest search results
+		storage_instance.save_dict_to_json_file(data_dict=obj_to_save, directory_path=self.results_processor_dir_path, file_name=self.results_processor_file_name_all_results) # latest.json
+
 
 	# Possible to deprecate - we may not need this function after all
 	#
@@ -74,6 +121,12 @@ class ResultsProcessor():
 
 		# Get the strig for the result source
 		pub_search_result_source = search_result['pub_search_result_source']
+
+		# Store the original Search Result object here as well.
+		result_processor__search_result_object['original_search_result_object'] = search_result
+
+		# Store the ID for ALL pub types
+		result_processor__search_result_object['pub_id'] = search_result['pub_id']
 
 		# SCHOLARLY LIB - Via Google Scholars
 		if(pub_search_result_source == "scholarly_google_scholars"):
@@ -137,7 +190,8 @@ class ResultsProcessor():
 		print("___TODO - process_search_results: SEE COMMENT ABOVE THIS LINE AND DO THOSE THINGS")
 
 		# Load previous results, get the ids and create objects for handling specific search results.
-		previously_saved_search_results = []  # Until this gets integrated, this will be an empty list
+		#previously_saved_search_results = []  # Until this gets integrated, this will be an empty list
+		previously_saved_search_results = self.load_running_list_of_all_previous_search_results()
 		previously_saved_search_results__pub_ids = []
 		previously_saved_search_results__counter = 0
 		#
@@ -147,16 +201,24 @@ class ResultsProcessor():
 			#previously_saved_search_result__run_id = previously_saved_search_result['run_id']
 			#previously_saved_search_results__ids.append(result_processor__search_result_object)
 
+			
 			# We are going to need the pub_id from each of these previously saved search results in order to later compare them to our most recent search.
 			previously_saved_search_result__pub_id = previously_saved_search_result['pub_id']
 			previously_saved_search_results__pub_ids.append(previously_saved_search_result__pub_id)
 
+			# Refactor - We are already savinvg these previously processed search results in the same object format.
+			# # So, removing the parts where we make an object.  All we are doing here is storing the pub IDs for comparing to the new results and setting the is_new_result to false, 
+			#
+			# Set the is_new_result key to False (since this IS a previously seen object)
+			previously_saved_search_result['is_new_result'] = False
+			#
 			# Make an object
-			result_processor__search_result_object = self.get_result_processor__search_result_object(search_result=previously_saved_search_result)
-			result_processor__search_result_object['is_new_result'] = False
-
+			#result_processor__search_result_object = self.get_result_processor__search_result_object(search_result=previously_saved_search_result)
+			#result_processor__search_result_object['is_new_result'] = False
+			#
 			# Append this result to the search_results_to_present_in_report array
-			search_results_to_present_in_report.append(result_processor__search_result_object)
+			#search_results_to_present_in_report.append(result_processor__search_result_object)
+			search_results_to_present_in_report.append(previously_saved_search_result)
 
 			previously_saved_search_results__counter = previously_saved_search_results__counter + 1
 
@@ -164,6 +226,7 @@ class ResultsProcessor():
 		# Iterating to get the list of search results from the current search
 		#current_search__pub_ids = []
 		current_search__counter = 0
+		current_search_new_results__counter = 0
 		for current_search_result in search_results:
 			#current_search_result__run_id = search_result['run_id']
 			#current_search__pub_ids.append(current_search_result__pub_id)
@@ -185,8 +248,13 @@ class ResultsProcessor():
 				# Append this result to the search_results_to_present_in_report array
 				search_results_to_present_in_report.append(result_processor__search_result_object)
 
+				# A brand new result was just added.  Incrementing the counter that keeps track of how many of those new results from the current run were found.
+				current_search_new_results__counter = current_search_new_results__counter + 1
+
 			current_search__counter = current_search__counter + 1
 
+		# Save 'search_results_to_present_in_report' as an overwrite of the 'all_runs.json'
+		self.save_running_list_of_all_previous_search_results(all_runs_processed_search_results=search_results_to_present_in_report)
 
 		# How many results are we presenting
 		len__search_results_to_present_in_report = len(search_results_to_present_in_report)
@@ -194,6 +262,7 @@ class ResultsProcessor():
 		# Load up the object for the reports_generator
 		processed_search_results_object['num_of_results__from_previous_saved_searches'] = previously_saved_search_results__counter
 		processed_search_results_object['num_of_results__from_current_run_search'] 		= current_search__counter
+		processed_search_results_object['num_of_new_results__from_current_run_search'] 	= current_search_new_results__counter
 		processed_search_results_object['num_of_results__presented_in_report'] 		    = len__search_results_to_present_in_report
 		processed_search_results_object['search_results_to_present_in_report'] 			= search_results_to_present_in_report
 

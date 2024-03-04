@@ -1,0 +1,67 @@
+START OF REPORT
+
+Search Results Report
+The number of search results in the current search found:             5
+The number of search results loaded from previously saved searches:   5
+The number of NEW search results found in this run:                   0
+The total number of search results presented in this report:          5
+
+
+  Publications List
+
+
+    ------------------------------
+
+      PubTitle:           Commercial Smallsat Data Acquisition Program: Airbus US Synthetic Aperture Radar Quality Assessment Summary
+      Year:               2023
+      Authors:            ['B Osmanoglu', 'M Jo']
+      URL:                https://ntrs.nasa.gov/citations/20230013207
+      Datasource:         Scholarly (GS)
+      Search String:      (TODO__Finish_hooking_this_up)
+      Search Result Date: 2024_03_03__05_02_22
+
+    ------------------------------
+
+      PubTitle:           Commercial Smallsat Data Acquisition Program On-ramp# 2 Airbus US Synthetic Aperture Radar (SAR) Evaluation Report
+      Year:               2023
+      Authors:            ['B Osmanoglu', 'J Nickeson', 'A Hall']
+      URL:                https://ntrs.nasa.gov/citations/20230013218
+      Datasource:         Scholarly (GS)
+      Search String:      (TODO__Finish_hooking_this_up)
+      Search Result Date: 2024_03_03__05_02_22
+
+    ------------------------------
+
+      PubTitle:           Combining NASA Earth Observations and Commercial Smallsat Data to Inform Localized Decision Making
+      Year:               2023
+      Authors:            ['L Tanh', 'M Pazmino', 'L Childs-Gleason', 'KW Ross']
+      URL:                https://ntrs.nasa.gov/citations/20230017240
+      Datasource:         Scholarly (GS)
+      Search String:      (TODO__Finish_hooking_this_up)
+      Search Result Date: 2024_03_03__05_02_22
+
+    ------------------------------
+
+      PubTitle:           Data in Action Story: Sharing and Exploring Earth Science Data
+      Year:               2023
+      Authors:            ['D Pham']
+      URL:                https://search.proquest.com/openview/01b1bc68667a942808662719e8ed570b/1?pq-origsite=gscholar&cbl=18750&diss=y
+      Datasource:         Scholarly (GS)
+      Search String:      (TODO__Finish_hooking_this_up)
+      Search Result Date: 2024_03_03__05_02_22
+
+    ------------------------------
+
+      PubTitle:           Commercial Smallsat Data Acquisition: Program Update
+      Year:               2021
+      Authors:            ['M Maskey', 'A Hall', 'K Murphy', 'C Tucker']
+      URL:                https://ieeexplore.ieee.org/abstract/document/9554702/
+      Datasource:         Scholarly (GS)
+      Search String:      (TODO__Finish_hooking_this_up)
+      Search Result Date: 2024_03_03__05_03_38
+
+    ------------------------------
+
+
+
+END OF REPORT
